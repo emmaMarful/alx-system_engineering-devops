@@ -14,4 +14,6 @@ mkdir /tmp/my_first_directory : Create a script that creates a directory named m
 
 mv /tmp/betty /tmp/my_first_file: moves the file betty from tmp to tmp/my_first_directory
 
-rm /tmp/my_first_directory/betty: delete the file betty   
+rm /tmp/my_first_directory/betty: delete the file betty
+
+rmdir /tmp/my_first_directory: delete my_first_directory (rmdir is used to delete empty directory) 
