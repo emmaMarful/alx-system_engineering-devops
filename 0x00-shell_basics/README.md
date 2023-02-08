@@ -4,4 +4,6 @@ ls: Display the contents list of your current directory.
 
 cd ~: this changes the working directory to the user’s home directory.
 
-ls: Display current directory contents in a long format 
+ls: Display current directory contents in a long format
+
+ls -la: this displays the current directory contents, including hidden files  
