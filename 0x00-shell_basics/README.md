@@ -24,4 +24,6 @@ ls -la . .. /boot: this lists all files (even ones with names beginning with a p
 
 file /tmp/iamafile : the file command determines the type of file named iamafile
 
-ln -s /bin/ls __ls__ : Create a symbolic link to /bin/ls, named __ls__     
+ln -s /bin/ls __ls__ : Create a symbolic link to /bin/ls, named __ls__   
+
+cp -u *.html ../ : this script copies all the HTML files from the current working directory to the parent of the workingdirectory, but only copy files that did not exist in the parent of the working directory or were newer than the versionsin the parent of the working directory.  
