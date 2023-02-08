@@ -16,4 +16,6 @@ mv /tmp/betty /tmp/my_first_file: moves the file betty from tmp to tmp/my_first_
 
 rm /tmp/my_first_directory/betty: delete the file betty
 
-rmdir /tmp/my_first_directory: delete my_first_directory (rmdir is used to delete empty directory) 
+rmdir /tmp/my_first_directory: delete my_first_directory (rmdir is used to delete empty directory)
+
+cd ..: this  changes the working directory to the previous one.  
