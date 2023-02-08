@@ -8,4 +8,6 @@ ls: Display current directory contents in a long format
 
 ls -la: this displays the current directory contents, including hidden files
 
-ls -lna: Display current directory contents in long format, with user and group IDs displayed numerically and hidden file starting with dot  
+ls -lna: Display current directory contents in long format, with user and group IDs displayed numerically and hidden file starting with dot 
+
+mkdir /tmp/my_first_directory : Create a script that creates a directory named my_first_directory in the /tmp/ directory 
